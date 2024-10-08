@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:  'Arial Narrow Bold', sans-serif, arial; 
+    line-height: 1.6;
+    background: linear-gradient(to right, #2ecc71, #3498db) ;
+    color: #000000;
+    font-size: clamp(1rem, 1.5vw, 1.2rem);
+    padding: 20px;
+}
+header {
+    background: linear-gradient(to left,#2ecc71, #3498db) ;
+    color: #f0f4f8;
+    padding: 1rem;
+    text-align: center;
+    margin: 25px;
+    border-radius: 30px;
+}
+
+header h1 {
+    font-size: clamp(3rem, 5vw, 4rem);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 0;
+}
+
+nav ul li a {
+    color: #f0f4f8;
+    text-decoration: none;
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #76a5ec;
+}
+main {
+    margin-top: 2rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+section {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    border: 2px solid #007bff; /* Blå ram */
+    border-radius: 10px;
+}
+
+section h2 {
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    margin-bottom: 1rem;
+    
+    
+}
+
+section p {
+    font-size: clamp(1rem, 2vw, 1.2rem);
+}
+
+
+
+article {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    font-size: clamp(1rem, 2vw, 1.2rem); 
+    border: 2px solid #007bff; /* Blå ram */
+    border-radius: 10px;}
+    
+
+footer {
+        margin-top: 2rem;
+        background: linear-gradient(to right, #3498db, #2ecc71);
+        color: #ffffff;
+        text-align: center;
+        padding: 2rem 1rem;
+        border-radius: 20px;
+        font-size: clamp(1.4rem, 2vw, 2rem);
+    }
+    
+    
+    footer a {
+        font-size: 20px;
+        font-weight: bold;
+        
+    }
+    
+    footer a:hover {
+        color: #0056b3;           /* Ändrar textfärgen vid hover */
+       
+    }
+    
+    
+    
+    
+    /* Responsiva anpassningar */
+    @media (max-width: 768px) {
+        nav ul {
+            flex-direction: column;
+        }
+    
+        nav ul li {
+            margin: 0.5rem 0;
+        }
+    }
+    
+    @media (min-width: 1024px) {
+        main {
+            padding: 0 2rem;
+        }
+    }
