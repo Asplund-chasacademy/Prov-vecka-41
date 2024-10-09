@@ -15,7 +15,7 @@ header {
 }
 
 header h1 {
-    font-size: clamp(5rem, 5vw, 6rem); /* Sätter storleken på rubriken H1 så att den är responsiv: minst 3rem, max 4rem och skalar med 5% av viewportens bredd (vw). */
+    font-size: clamp(4rem, 5vw, 6rem); /* Sätter storleken på rubriken H1 så att den är responsiv: minst 3rem, max 4rem och skalar med 5% av viewportens bredd (vw). */
 }
 
 nav ul {
@@ -29,7 +29,7 @@ nav ul {
 nav ul li a {
     color: #f0f4f8;
     text-decoration: underline;
-    font-size: clamp(2rem, 3vw, 3rem);
+    font-size: clamp(1.5rem, 3vw, 3rem);
     transition: color 0.7s;
 }
 
