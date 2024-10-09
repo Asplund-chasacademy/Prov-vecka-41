@@ -94,7 +94,7 @@ footer {
         height: auto; /* Bevarar proportionerna */
         margin: 0 auto; /* Centrerar bilden om dess container är bredare än bilden */
         object-fit: cover;     /* Bilden täcker hela området utan att förlora proportionerna */
-        border-radius: 10px;   /* Valfritt: Rundar hörnen på bilderna */
+        border-radius: 10px;   
     }
     
     
