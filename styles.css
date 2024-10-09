@@ -2,12 +2,12 @@
 body {
     font-family:  arial,sans-serif; 
     line-height: 1.6;
-    background: linear-gradient(to right, #2ecc71, #3498db) ;
+    background: linear-gradient(to right,#1f864a, #226491) ;
     color: #000000;
     padding: 2rem;
 }
 header {
-    background: linear-gradient(to left,#2ecc71, #3498db) ;
+    background: linear-gradient(to left,#1f864a, #226491) ;
     color: #ffffff;
     text-align: center;
     margin: 2.5rem;
@@ -74,7 +74,7 @@ article {
 
 footer {
         margin-top: 2rem;
-        background: linear-gradient(to right, #3498db, #2ecc71);
+        background: linear-gradient(to left, #1f864a, #226491);
         color: #ffffff;
         text-align: center;
         padding: 2rem;
