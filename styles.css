@@ -4,25 +4,25 @@ body {
     line-height: 1.6;
     background: linear-gradient(to right, #2ecc71, #3498db) ;
     color: #000000;
-    padding: 20px;
+    padding: 2rem;
 }
 header {
     background: linear-gradient(to left,#2ecc71, #3498db) ;
     color: #ffffff;
-    padding: 2rem;
     text-align: center;
     margin: 2rem;
     border-radius: 2rem;
 }
 
 header h1 {
-    font-size: clamp(3rem, 5vw, 4rem);
+    font-size: clamp(3rem, 5vw, 4rem); /* Sätter storleken på rubriken H1 så att den är responsiv: minst 3rem, max 4rem och skalar med 5% av viewportens bredd (vw). */
+
 }
 
 nav ul {
     list-style: none;
-    display: flex;
-    justify-content: center;
+    display: flex;  /* Sätter upp en flexbox-layout för att arrangera menyn horisontellt. */
+    justify-content: center;  /* Centrerar innehållet horisontellt i listan. */
     gap: 1.5rem;
     padding: 1.5rem;
 }
@@ -39,8 +39,8 @@ nav ul li a:hover {
 }
 main {
     margin-top: 2rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    display: grid;  /* Sätter en grid-layout för huvudinnehållet för att kunna skapa ett flexibelt rutnät. */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Skapar automatiskt kolumner i griden som är minst 250px breda och max 1fr (en fraktion av tillgänglig plats). */
     gap: 2rem;
 }
 section {
@@ -78,7 +78,7 @@ footer {
         background: linear-gradient(to right, #3498db, #2ecc71);
         color: #ffffff;
         text-align: center;
-        padding: 2rem 1rem;
+        padding: 2rem;
         border-radius: 20px;
         font-size: clamp(1.4rem, 2vw, 2rem);
     }
@@ -91,9 +91,8 @@ footer {
     }
     
     img {
-        max-width: 90%; /* Gör så att bilden inte blir större än sin föräldrakontainer */
+        max-width: 90%; 
         height: auto; /* Bevarar proportionerna */
-        display: block; /* Tar bort små mellanrum under bilden */
         margin: 0 auto; /* Centrerar bilden om dess container är bredare än bilden */
         object-fit: cover;     /* Bilden täcker hela området utan att förlora proportionerna */
         border-radius: 10px;   /* Valfritt: Rundar hörnen på bilderna */
@@ -107,7 +106,8 @@ footer {
         }
         
         nav ul {
-            flex-direction: column;
+            flex-direction: column; /* Ändrar listan i navigeringsmenyn till en vertikal kolumn på mindre skärmar. */
+        
         }
         
         nav ul li {
@@ -122,6 +122,6 @@ footer {
     
     @media (min-width: 1024px) {
         main {
-            grid-template-columns: repeat(3, 1fr); /* Det blir inte fler än 3 kolumner */
+            grid-template-columns: repeat(3, 1fr); /* Så det inte blir fler än 3 kolumner */
         }
     }
