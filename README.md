@@ -1,6 +1,19 @@
 # Prov-vecka-41
 Detta repo är till provet vecka 41
 
+Här nedan ska jag ge instruktioner för hur man öppnar och navigerar på webbplatsen.
+
+1. Klicka på länken till mitt github repo. Se till att du har laddat ner github desktop och visual studio code.
+2. klicka på den gröna knappen som det står "<> code" på
+3. Klicka på open with GitHub Desktop 
+5. Då borde github desktop öppnas automatiskt. klicka sedan på open with visual studio code 
+6. Nu är du inne i Visual studio code och min kod. I den vänstra spalten klicka på de fyra kuberna ( den femte ikonen uppefrån och ner.)
+7. Då söker du i det lilla sökfältet uppe i vänstra hörnet som det står search extensions i och söker på live server. klicka sedan på install. 
+8. Nu klickar du på de 2 pappersarken, den ikonen som är högst upp i vänstra hörnet.
+9. Nu högerklickar du där det står index.html i den vänstra spalten, och väljer open with live server.
+10. Nu kan du se min hemsida som jag har skapat. du kan även klicka dig vidare till nästa sida genom att klicka på "om mig".
+
+
 Här nedan kommer en kortfattad teknisk beskrivning på hur jag uppfyllde kraven.
 
 HTML-
@@ -32,6 +45,3 @@ webbläsarverktyg-
 Debugga HTML- och CSS-problem: Jag har använt Chrome DevTools för att inspektera och åtgärda HTML- och CSS-problem under utvecklingen.
 Responsivitetstest: Genom DevTools har jag testat responsiviteten för olika enheter (mobil, surfplatta, dator).
 Lighthouse: Jag har använt Lighthouse för att kontrollera tillgänglighetsaspekter och förbättrat där det behövts, som att se till att rubrikstruktur, kontrast, och tillgänglighet följs.
-
-
-Här nedan ska jag ge instruktioner för hur man öppnar och navigerar på webbplatsen.
