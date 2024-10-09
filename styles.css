@@ -10,27 +10,26 @@ header {
     background: linear-gradient(to left,#2ecc71, #3498db) ;
     color: #ffffff;
     text-align: center;
-    margin: 2rem;
-    border-radius: 2rem;
+    margin: 2.5rem;
+    border-radius: 3rem;
 }
 
 header h1 {
-    font-size: clamp(3rem, 5vw, 4rem); /* Sätter storleken på rubriken H1 så att den är responsiv: minst 3rem, max 4rem och skalar med 5% av viewportens bredd (vw). */
-
+    font-size: clamp(5rem, 5vw, 6rem); /* Sätter storleken på rubriken H1 så att den är responsiv: minst 3rem, max 4rem och skalar med 5% av viewportens bredd (vw). */
 }
 
 nav ul {
     list-style: none;
     display: flex;  /* Sätter upp en flexbox-layout för att arrangera menyn horisontellt. */
     justify-content: center;  /* Centrerar innehållet horisontellt i listan. */
-    gap: 1.5rem;
-    padding: 1.5rem;
+    gap: 3rem;
+    padding: 3rem;
 }
 
 nav ul li a {
     color: #f0f4f8;
     text-decoration: underline;
-    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-size: clamp(2rem, 3vw, 3rem);
     transition: color 0.7s;
 }
 
